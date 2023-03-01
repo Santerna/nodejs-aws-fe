@@ -45,12 +45,12 @@
     "react-redux": "^7.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "typescript": "~3.7.2",
-    "yup": "^0.29.1",
     "serverless": "^3.27.0",
     "serverless-finch": "^4.0.0",
     "serverless-s3-cleaner": "^2.0.2",
-    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin"
+    "serverless-single-page-app-plugin": "file:./serverless-single-page-app-plugin",
+    "typescript": "^4.9.5",
+    "yup": "^0.29.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -78,5 +78,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "."
+  "homepage": ".",
+  "proxy": "https://c8qkv6bf94.execute-api.eu-central-1.amazonaws.com/dev/products"
 }
