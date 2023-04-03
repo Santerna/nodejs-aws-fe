@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function PageProductImport() {
   const classes = useStyles();
-
+  console.log('Import path', API_PATHS.import);
   return (
     <div className={classes.content}>
       <Box display="flex" alignItems="center">
